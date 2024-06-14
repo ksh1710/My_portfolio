@@ -31,35 +31,35 @@ const imageAltText = "desktop with books and laptop";
  */
 const projectList = [
   {
-    title: "10 Things To Know About Azure Static Web Apps 🎉",
+    title: "Indishoot Vertex Dynamics - Android intern",
     description:
-      "Collaboration to create a beginner friendly article to help explain Azure Static Web Apps and tooling to get started.",
-    url: "https://dev.to/azure/10-things-to-know-about-azure-static-web-apps-3n4i",
+      "Working as a android intern in a gurgaon based startup app which connects photographers to clients.",
+    url: "https://play.google.com/store/apps/details?id=com.anytimeshoot.anytimeshoot",
   },
   {
-    title: "Web Development for Beginners",
+    title: "Sensibite - Food Allergy Assistant",
     description:
-      "Contributed sketch note imagery to accompany each lesson. These help provide visual representation of what is being taught.",
-    url: "https://github.com/microsoft/web-dev-for-beginners",
+      "Developeda food allergy assistant having Marketplace, Scanner, and Profile section, leveragin powers of kotlin and external libraries with ML model integration.",
+    url: "",
   },
   {
-    title: "My Resume Site",
+    title: "Sankalp - platform for Drug Addiction Support",
     description:
-      "Created from Microsoft's resume workshop and deployed to GitHub pages. Includes my experience and design abilities.",
-    url: "https://github.com/microsoft/workshop-library/tree/main/full/build-resume-website",
+      "Developed a kotlin-compose based Application for helping people struggling with drug addiction to get rid of it, by providing anonymity and virtual support.",
+    url: "",
   },
   {
-    title: "GitHub Codespaces and github.dev",
+    title: "SuperVision - AI powered smart CCTV solutions",
     description:
-      "Video interview to explain when to use GitHub.dev versus GitHub Codespaces, and how best to use each tool.",
-    url: "https://www.youtube.com/watch?v=c3hHhRME_XI",
+      "Developed an android mobile application to remotely monitor and make decisions on real-time video feed anomalies detected from the smart CCTV camera.",
+    url: "",
   },
 ];
 
 const Portfolio = () => {
   return (
     <section className="padding" id="portfolio">
-      <h2 style={{ textAlign: "center" }}>Portfolio</h2>
+      <h2 style={{ textAlign: "center" }}>Projects and Experience </h2>
       <div style={{ display: "flex", flexDirection: "row", paddingTop: "3rem" }}>
         <div style={{ maxWidth: "40%", alignSelf: "center" }}>
           <img
